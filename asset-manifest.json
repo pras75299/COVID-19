@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/COVID-19/static/css/main.867e659f.chunk.css",
-    "main.js": "/COVID-19/static/js/main.f1c726f8.chunk.js",
-    "main.js.map": "/COVID-19/static/js/main.f1c726f8.chunk.js.map",
+    "main.css": "/COVID-19/static/css/main.872d39e2.chunk.css",
+    "main.js": "/COVID-19/static/js/main.37f4987f.chunk.js",
+    "main.js.map": "/COVID-19/static/js/main.37f4987f.chunk.js.map",
     "runtime-main.js": "/COVID-19/static/js/runtime-main.055a0d2d.js",
     "runtime-main.js.map": "/COVID-19/static/js/runtime-main.055a0d2d.js.map",
-    "static/js/2.cc2abaa3.chunk.js": "/COVID-19/static/js/2.cc2abaa3.chunk.js",
-    "static/js/2.cc2abaa3.chunk.js.map": "/COVID-19/static/js/2.cc2abaa3.chunk.js.map",
+    "static/js/2.2991dd52.chunk.js": "/COVID-19/static/js/2.2991dd52.chunk.js",
+    "static/js/2.2991dd52.chunk.js.map": "/COVID-19/static/js/2.2991dd52.chunk.js.map",
     "index.html": "/COVID-19/index.html",
-    "precache-manifest.bcbb453d49a1e07d7bf83bf5dc7ee81b.js": "/COVID-19/precache-manifest.bcbb453d49a1e07d7bf83bf5dc7ee81b.js",
+    "precache-manifest.fa71e3906080b8ab80e88066dc6f5fee.js": "/COVID-19/precache-manifest.fa71e3906080b8ab80e88066dc6f5fee.js",
     "service-worker.js": "/COVID-19/service-worker.js",
-    "static/css/main.867e659f.chunk.css.map": "/COVID-19/static/css/main.867e659f.chunk.css.map",
-    "static/js/2.cc2abaa3.chunk.js.LICENSE.txt": "/COVID-19/static/js/2.cc2abaa3.chunk.js.LICENSE.txt",
+    "static/css/main.872d39e2.chunk.css.map": "/COVID-19/static/css/main.872d39e2.chunk.css.map",
+    "static/js/2.2991dd52.chunk.js.LICENSE.txt": "/COVID-19/static/js/2.2991dd52.chunk.js.LICENSE.txt",
     "static/media/death.svg": "/COVID-19/static/media/death.e7acb4cf.svg",
     "static/media/infected.svg": "/COVID-19/static/media/infected.4e113c7e.svg",
-    "static/media/logo.svg": "/COVID-19/static/media/logo.5d5d9eef.svg",
-    "static/media/recovered.svg": "/COVID-19/static/media/recovered.c00aaeb3.svg"
+    "static/media/logo.svg": "/COVID-19/static/media/logo.ee7cd8ed.svg",
+    "static/media/recovered.svg": "/COVID-19/static/media/recovered.3b938f1e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.055a0d2d.js",
-    "static/js/2.cc2abaa3.chunk.js",
-    "static/css/main.867e659f.chunk.css",
-    "static/js/main.f1c726f8.chunk.js"
+    "static/js/2.2991dd52.chunk.js",
+    "static/css/main.872d39e2.chunk.css",
+    "static/js/main.37f4987f.chunk.js"
   ]
 }
