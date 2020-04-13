@@ -1,0 +1,24 @@
+.formControl {
+  width: 30%;
+  margin: 30px auto 0 auto !important;
+}
+
+.MuiInput-underline:before {
+  display: none;
+}
+
+.selectCountry select {
+  height: 44px;
+  background-color: #fff;
+  border: #e2e2e2 solid 1px;
+  box-shadow: #e2e2e2 0 0 10px;
+  border-radius: 7px;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .formControl {
+    width: 90%;
+    margin: 30px auto 0 auto !important;
+  }
+}
