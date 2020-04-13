@@ -4,6 +4,10 @@ import styles from "./Cards.module.css";
 import CountUp from "react-countup";
 import cx from "classnames";
 
+import infectedImg from "../../images/infected.svg";
+import recoveredImg from "../../images/recovered.svg";
+import deathImg from "../../images/death.svg";
+
 const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
   if (!confirmed) {
     return "Loading...";
@@ -18,6 +22,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           md={3}
           className={cx(styles.card, styles.infected)}
         >
+          <img className={styles.infectedImg} src={infectedImg} alt="" />
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
               Infected
@@ -33,7 +38,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography color="textSecondary" gutterBottom>
               {new Date(lastUpdate).toDateString()}
             </Typography>
-            <Typography variant="body2">Number of active cases</Typography>
+            <Typography variant="body2">Number of confirmed cases</Typography>
           </CardContent>
         </Grid>
 
@@ -44,6 +49,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           md={3}
           className={cx(styles.card, styles.recovered)}
         >
+          <img className={styles.recoveredImg} src={recoveredImg} alt="" />
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
               Recovered
@@ -59,7 +65,9 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography color="textSecondary" gutterBottom>
               {new Date(lastUpdate).toDateString()}
             </Typography>
-            <Typography variant="body2">Number of recoveries cases</Typography>
+            <Typography variant="body2">
+              Number of recoveries till now
+            </Typography>
           </CardContent>
         </Grid>
 
@@ -70,6 +78,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           md={3}
           className={cx(styles.card, styles.deaths)}
         >
+          <img className={styles.deathImg} src={deathImg} alt="" />
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
               Deaths
@@ -85,7 +94,9 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography color="textSecondary" gutterBottom>
               {new Date(lastUpdate).toDateString()}
             </Typography>
-            <Typography variant="body2">Number of Deaths cases</Typography>
+            <Typography variant="body2">
+              Number of people who lost lives
+            </Typography>
           </CardContent>
         </Grid>
       </Grid>
